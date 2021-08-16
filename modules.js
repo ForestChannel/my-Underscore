@@ -1,5 +1,5 @@
 let _ = {
-  each: function (args, cb) {
+  each: (args, cb) => {
     if (Array.isArray(args)) {
       let i = 0
       for (const iterator of args) {
@@ -15,5 +15,5 @@ let _ = {
       }
     }
   },
-  map: function (args, cb) {},
+  map: (args, cb) => {},
 }
